@@ -1,0 +1,32 @@
+
+.image {
+    position: absolute;
+    height: 10%;
+    width: 6%;
+    top: 100px;
+    left: 1000px;
+}
+.image_map {
+    position: absolute;
+    height: 10%;
+    width: 6%;
+    top: 230px;
+    left: 525px;
+}
+
+.image_girl {
+    position: absolute;
+    height: 80%;
+    width: 70%;
+    top: 5px;
+    left: 12px;
+}
+.image_boy {
+    position: absolute;
+    height: 80%;
+    width: 70%;
+    top: 5px;
+    left: 12px;
+}
+
+
