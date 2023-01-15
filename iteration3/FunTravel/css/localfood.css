@@ -1,0 +1,48 @@
+body {
+    background-color: #36B4C6;
+}
+.headline {
+    color: white;
+    font-style: normal;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 150px;
+    top: 30px;
+    font-size: 28px;
+    clear: both;
+}
+.superhero2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 150px;
+    top: 130px;
+    clear: both;
+
+    background-color: #36B4C6;
+}
+.options2{
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    top: 250px;
+    vertical-align:bottom;
+    background-color: #36B4C6;
+    clear: both;
+}
+table,tr,td{
+    clear: both;
+    padding:16px;
+}
+
+.button-fill {
+    background: white;
+    color: #000000;
+    position: absolute;
+    left: 120px;
+    top: 780px;
+    width: 400px;
+    padding: 18px;
+    clear: both;
+}

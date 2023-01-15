@@ -1,0 +1,156 @@
+body {
+    background-color: #36B4C6;
+}
+.current{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 70px;
+    top: 120px;
+    color:white;
+    font-size: 22px;
+
+
+}
+.lisbon{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    left: 70px;
+    top: 200px;
+
+
+}
+.trashbin{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    left: 450px;
+    top: 220px;
+    color:white;
+
+}
+.envelope{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    left: 500px;
+    top: 220px;
+    color:white;
+
+}
+.shared{
+    position: absolute;
+    color: white;
+    width: 200px;
+    height: 100px;
+    left: 70px;
+    top: 320px;
+    font-size: 22px;
+}
+.spain{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    left: 70px;
+    top: 380px;
+
+    background-color: #36B4C6;
+}
+.trashbin2{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    left: 450px;
+    top: 400px;
+    color:white;
+
+}
+.envelope2{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    left: 500px;
+    top: 400px;
+    color:white;
+
+}
+.right{
+    position: absolute;
+    left: 600px;
+    top:30px;
+    width: 50px;
+    color:white;
+
+}
+@font-face {
+    font-family: 'Framework7 Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Framework7 Icons'), local('Framework7Icons-Regular'),
+    url('../fonts/Framework7Icons-Regular.woff2') format('woff2'), url('../fonts/Framework7Icons-Regular.woff')
+    format('woff'), url('../fonts/Framework7Icons-Regular.ttf') format('truetype');
+}
+
+.f7-icons {
+    font-family: 'Framework7 Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga=1';
+    -moz-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+}
+.framework7-icons {
+    font-family: 'Framework7 Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga=1';
+    -moz-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+}
+.headline {
+    color: white;
+    font-style: normal;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 70px;
+    top: 30px;
+    font-size: 28px;
+    clear: both;
+}
+.button-fill {
+    background: white;
+    color: #000000;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    width: 300px;
+    padding: 16px;
+    clear: both;
+}
+
