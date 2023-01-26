@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/jonasbender/WebstormProjects/testApp",
+  "type": [
+    "web"
+  ],
+  "name": "coolApp",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": false,
+  "theming": {
+    "customColor": true,
+    "color": "#ff9230",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
