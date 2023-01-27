@@ -4,6 +4,8 @@ var routes = [
     path: '/',
     url: './index.html',
   },
+
+
   {
     path: '/test/',
     componentUrl: './pages/jonas_test.html',
@@ -11,10 +13,20 @@ var routes = [
   {
     path: '/lisbon/',
     componentUrl: './pages/lisbon.html',
+
   },
   {
     path: '/pastel/',
     componentUrl: './pages/pastel de nata.html',
+
+  },{
+    path: '/wishes/',
+    componentUrl: './pages/wishes.html',
+  },
+  {
+    path: '/pastel/',
+    componentUrl: './pages/pastel_de_nata.html',
+
   },
   {
     path: '/secret/',
