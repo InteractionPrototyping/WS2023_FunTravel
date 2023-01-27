@@ -1,0 +1,173 @@
+<template>
+    <div class="page">
+        <div class="navbar navbar-large navbar-transparent">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a class="link back">
+                        <i class="icon icon-back" ></i>
+
+                    </a>
+                </div>
+                <div class="title">Create profile</div>
+                <div class="title-large">
+                    <div class="title-large-text">Create profile</div>
+                </div>
+                <div class="right">
+                    <div class="menu-item menu-item-dropdown">
+
+                        <div class="menu-item-content"><i class="icon f7-icons if-not-md">menu</i></div>
+                        <div class="menu-dropdown menu-dropdown-right">
+                            <div class="menu-dropdown-content">
+                                <a href="/test/" class="menu-dropdown-link menu-close">Your profile</a>
+                                <a href="#" class="menu-dropdown-link menu-close">Your destinations</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="page-content">
+
+<div id="profile">
+                    <div class="person_ellipse1">
+                        <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384"
+                                srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2F50aa4ac7a5cd4b0a9ab16ea5d392c384"
+                                class="image_girl"
+                        />
+                    </div>
+                    <div class="person_ellipse2">
+                        <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c"
+                                srcset="https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2FTEMP%2Ff23f6593a83147f3811b65970c79928c"
+                                class="image_boy"
+                        />
+                    </div>
+                    <div class="item-title item-label">Name</div>
+                    <div class="item-input-wrap">
+                        <input type="text" placeholder="Your name"/>
+
+                    </div>
+                    <div class="age_input">How old are you?</div>
+
+
+
+
+
+                <!-- range slider, enable labels -->
+                <div class="range-slider range-slider-init color-orange" data-label="true">
+                    <input type="range" min="6" max="10" step="1" value="50"/>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+              <a href="/location/" class="col button button-fill" id="create">Create profile</a>
+
+
+
+    </div>
+</div>
+    </div>
+
+
+</template>
+<style>
+
+    #create {
+        margin:0 auto;
+        top: 500px;
+        background: white;
+        color: #000000;
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+
+    }
+    .item-input-wrap {
+        position: relative;
+        color: white;
+        font-size: 24px;
+
+    }
+
+
+
+
+    input::placeholder {
+        color: #161616;
+
+    }
+
+
+    .item-label {
+        position: relative;
+        color: white;
+        font-size: 24px;
+        top: 180px;
+
+        left: 50px;
+
+
+    }
+
+    input[type=text] {
+
+        position: relative;
+        left: 50px;
+        top: 230px;
+    }
+    .range-slider {
+        position: relative;
+        top: 370px;
+
+    }
+
+
+    .age_input {
+
+        position: relative;
+
+        color: white;
+        font-size: 24px;
+        top: 300px;
+
+        left: 50px;
+    }
+    .image_girl {
+
+        position: absolute;
+        width: 80px;
+        left: 55px;
+        top: 120px;
+
+    }
+    .image_boy {
+        position: absolute;
+        width: 80px;
+        left: 250px;
+        top: 120px;
+
+    }
+
+
+
+
+
+</style>
