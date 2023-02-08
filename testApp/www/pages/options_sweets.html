@@ -11,7 +11,7 @@
                 </div>
                 <div class="title">Create profile</div>
                 <div class="title-large">
-                    <div class="title-large-text">Sweets in <span style="color: #D22F27;">Lisbon</span></div>
+                    <div class="title-large-text">Sweets in Lisbon</div>
                 </div>
 
                 <div class="right">
@@ -19,8 +19,8 @@
                         <div class="menu-item-content"><i class="icon f7-icons if-not-md">menu</i></div>
                         <div class="menu-dropdown menu-dropdown-right">
                             <div class="menu-dropdown-content">
-                                <a href="/test/" class="menu-dropdown-link menu-close">Your profile</a>
-                                <a href="#" class="menu-dropdown-link menu-close">Your destinations</a>
+                                <a href="/wishes/" class="menu-dropdown-link menu-close">Your destinations</a>
+
 
                             </div>
                         </div>
@@ -141,7 +141,9 @@
                                         </div>
 
                                     </div>
+                                    </div>
                                 </li>
+
 
 
                             </ul>
@@ -152,8 +154,8 @@
 
 
             </div>
-
-            <a href="/secret/" class="col button button-fill" id="spot">Go to the secret spot!</a>
+            <div class="place"></div>
+            <a href="/secret/" class="col button button-fill">Go to the secret spot!</a>
 
         </div>
     </div>
@@ -161,16 +163,21 @@
 </template>
 <style>
 
-    #spot {
-        margin: 0 auto;
-        top: 230px;
+    .place {
+        height: 100px;
+    }
+
+    .button-fill {
+        position: absolute;
+        top: 750px;
+        left: 70px;
+
         background: white;
         color: #000000;
         width: 250px;
         height: 30px;
         border-radius: 5px;
     }
-
 
 
     .superhero {

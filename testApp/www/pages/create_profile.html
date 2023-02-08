@@ -19,9 +19,8 @@
                         <div class="menu-item-content"><i class="icon f7-icons if-not-md">menu</i></div>
                         <div class="menu-dropdown menu-dropdown-right">
                             <div class="menu-dropdown-content">
-                                <a href="/test/" class="menu-dropdown-link menu-close">Your profile</a>
-                                <a href="#" class="menu-dropdown-link menu-close">Your destinations</a>
 
+                                <a href="/wishes/" class="menu-dropdown-link menu-close">Your destinations</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +52,7 @@
                     </div>
                     <div class="item-title item-label">Name</div>
                     <div class="item-input-wrap">
-                        <input type="text" placeholder="Your name"/>
+                        <input type="text" placeholder="Enter your name"/>
 
                     </div>
                     <div class="age_input">How old are you?</div>
@@ -78,7 +77,7 @@
 
 
 
-              <a href="/location/" class="col button button-fill" id="create">Create profile</a>
+              <a href="/location/" class="col button button-fill" >Create profile</a>
 
 
 
@@ -90,15 +89,16 @@
 </template>
 <style>
 
-    #create {
-        margin:0 auto;
-        top: 500px;
+    .button-fill {
+        position: absolute;
+        top: 750px;
+        left: 70px;
+
         background: white;
         color: #000000;
         width: 250px;
         height: 30px;
         border-radius: 5px;
-
     }
     .item-input-wrap {
         position: relative;
@@ -111,7 +111,7 @@
 
 
     input::placeholder {
-        color: #161616;
+        color: white;
 
     }
 

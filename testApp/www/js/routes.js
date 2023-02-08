@@ -16,10 +16,20 @@ var routes = [
 
   },
   {
-    path: '/pastel/',
-    componentUrl: './pages/pastel de nata.html',
+    path: '/onboarding2/',
+    componentUrl: './pages/onboarding2.html',
 
-  },{
+  },
+  {
+    path: '/onboarding3/',
+    componentUrl: './pages/onboarding3.html',
+
+  },
+  {
+    path: '/sweets/',
+    componentUrl: './pages/options_sweets.html',
+  },
+  {
     path: '/wishes/',
     componentUrl: './pages/wishes.html',
   },
@@ -32,14 +42,12 @@ var routes = [
     path: '/secret/',
     componentUrl: './pages/secret.html',
   },
+
   {
     path: '/fun/',
     componentUrl: './pages/options_fun.html',
   },
-  {
-    path: '/sweets/',
-    componentUrl: './pages/options_sweets.html',
-  },
+  
   {
     path: '/onboarding2/',
     componentUrl: './pages/onboarding2.html',
